@@ -1,5 +1,5 @@
 from utils import *
-from model import NeuralNetwork
+from script.model import NeuralNetwork
 
 class CustomImageDataset(Dataset):
     def __init__(self, data_file):
